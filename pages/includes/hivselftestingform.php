@@ -64,15 +64,38 @@
           </li>   
           <li class="healthformslist w3-border-0">
           <div class="listitemcontainer">
-            <b>6.4 Workplace Type</b>
+            <b>6.4 Workplace Type</b><i class="w3-text-grey">(Tick options that aply)</i>
           </div>
               <div class="listitemcontainer">
                <input type="checkbox" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="workplacetype" id="workplacetype" value="farm">
                <label for="workplacetype">Farm</label><br>
 
+              <input type="checkbox" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="workplacetype" id="workplacetype" value="factory">
+               <label for="workplacetype">Factory</label><br>
+
+                <input type="checkbox" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="workplacetype" id="workplacetype" value="construction">
+               <label for="workplacetype">Construction</label><br>
+
+                <input type="checkbox" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="workplacetype" id="workplacetype" value="security">
+               <label for="workplacetype">Security</label><br>
+                <input type="checkbox" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="workplacetype" id="workplacetype" value="mining">
+               <label for="workplacetype">Mining</label><br>
+               <label for="workplacetype">Others Specify :</label>
+               <input type="text" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="workplacetype" id="workplacetype"placeholder="others.">
+              </div>
+          </li> 
+          <li class="healthformslist w3-border-0">
+          <div class="listitemcontainer">
+            <b>6.5 Distribution Channel</b>
+          </div>
+              <div class="listitemcontainer">
+               <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="workabledistribution" id="workabledistribution" value="yes">
+               <label for="workabledistribution">Yes</label><br>
+
               <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="workabledistribution" id="workabledistribution" value="no">
                <label for="workabledistribution">No</label><br>
               </div>
-          </li> 
+          </li>  
+
    	</ul>
 </div>
