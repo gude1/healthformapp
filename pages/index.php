@@ -49,9 +49,12 @@
    	<!--personal details form-->
    	<?php  include_once "includes/personaldetailsform.php"?>
    	<!--personal details form-->
-   	<!--personal details form-->
+   	<!--informedconsentform-->
    	<?php  include_once "includes/informedcosentform.php"?>
-   	<!--personal details form-->
+   	<!--informedconsentform-->
+   	<!--precounselling form-->
+   	<?php  include_once "includes/precounsellingform.php"?>
+   	<!--precounselling form-->
    </div>
 </body>
 </html>
