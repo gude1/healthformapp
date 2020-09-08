@@ -31,14 +31,14 @@
         .listitemcontainer{
 		  width: 100%;
         }
-		input{
+		input,Button{
          outline: none;
 		}
 	</style>
 </head>
 <body class="w3-animate-left w3-light-grey w3-display-container">
-	<Button class="w3-display-left w3-btn w3-blue">Left</Button>
-	<Button class="w3-display-right w3-btn w3-blue">Right</Button>
+	<Button class="w3-display-left w3-small w3-btn w3-round w3-center w3-blue">Left</Button>
+	<Button class="w3-display-right w3-small w3-round w3-btn w3-blue w3-center">Right</Button>
    <div id="formcontainer" class="w3-border">
    	<!-- first form -->
    	<?php  include_once "includes/firstform.php"?>
@@ -55,9 +55,13 @@
    	<!--precounselling form-->
    	<?php  include_once "includes/precounsellingform.php"?>
    	<!--precounselling form-->
-   	<!--precounselling form-->
+   	<!--hivetestingservices form-->
    	<?php  include_once "includes/hivtestingservicesform.php"?>
-   	<!--precounselling form-->
+   	<!--hivetestingservices form-->
+   	<!--hivselftest form-->
+   	<?php  include_once "includes/hivselftestingform.php"?>
+   	<!--hivselftest form-->
+
    </div>
 </body>
 </html>
