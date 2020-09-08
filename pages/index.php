@@ -55,6 +55,9 @@
    	<!--precounselling form-->
    	<?php  include_once "includes/precounsellingform.php"?>
    	<!--precounselling form-->
+   	<!--precounselling form-->
+   	<?php  include_once "includes/hivtestingservicesform.php"?>
+   	<!--precounselling form-->
    </div>
 </body>
 </html>
