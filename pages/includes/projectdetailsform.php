@@ -118,5 +118,14 @@
               </div>
           </li>
 
+           <li class="healthformslist w3-border-0">
+          <div class="listitemcontainer">
+            <b>1.10  Staff Code</b>
+          </div>
+              <div class="listitemcontainer">
+               <input type="text" class="w3-input w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="staffcode" id="staffcode"  placeholder="First 4 letters of SR name + Role (e.g lay counsellor) + Number">
+              </div>
+          </li>
+
    		</ul>
    	</div>

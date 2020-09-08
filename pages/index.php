@@ -36,7 +36,9 @@
 		}
 	</style>
 </head>
-<body class="w3-animate-left w3-light-grey">
+<body class="w3-animate-left w3-light-grey w3-display-container">
+	<Button class="w3-display-left w3-btn w3-blue">Left</Button>
+	<Button class="w3-display-right w3-btn w3-blue">Right</Button>
    <div id="formcontainer" class="w3-border">
    	<!-- first form -->
    	<?php  include_once "includes/firstform.php"?>
