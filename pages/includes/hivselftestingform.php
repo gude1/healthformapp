@@ -28,14 +28,50 @@
           </li>   
            <li class="healthformslist w3-border-0">
           <div class="listitemcontainer">
-            <b>6.2.1 HIVSS Results </b>
+            <b>6.2.1 if HIV+ confirmatory test completed</b>
+          </div>
+            <div class="listitemcontainer">
+               <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="hivssconfirmatorytestcomplete" id="hivssconfirmatorytestcomplete" value="yes">
+               <label for="hivssconfirmatorytestcomplete">yes</label><br>
+               <div class="w3-margin-left">
+                 <label for="hivssconfirmatorytestcomplete"><b>Confirmatory test result</b></label><br>
+
+                  <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="hivssconfirmatorytestresult" id="hivssconfirmatorytestresult" value="reactive"><label for="hivssconfirmatorytestresult">Reactive</label><br>
+                  <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="hivssconfirmatorytestresult" id="hivssconfirmatorytestresult" value="nonreactive"><label for="hivssconfirmatorytestresult">Non-reactive</label>
+              </div>
+            </div>
+      
+              <div class="listitemcontainer">
+             <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="hivssconfirmatorytestcomplete" id="hivssconfirmatorytestcomplete" value="no">
+               <label for="hivssconfirmatorytestcomplete">no</label><br>
+
+             <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="hivssconfirmatorytestcomplete" id="hivssconfirmatorytestcomplete" value="inconclusive">
+               <label for="hivssconfirmatorytestcomplete">Inconclusive</label><br>
+              </div>
+          </li>
+
+          <li class="healthformslist w3-border-0">
+          <div class="listitemcontainer">
+            <b>6.3 Workable distribution(HIVSS)</b>
           </div>
               <div class="listitemcontainer">
-               <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="hivssresult" id="hivssresult" value="hiv+ve">
-               <label for="hivssresult">HIV +ve</label><br>
+               <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="workabledistribution" id="workabledistribution" value="yes">
+               <label for="workabledistribution">Yes</label><br>
 
-               <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="hivssresult" id="hivssresult" value="hiv-ve">
-               <label for="hivssresult">HIV -ve</label><br>
+              <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="workabledistribution" id="workabledistribution" value="no">
+               <label for="workabledistribution">No</label><br>
+              </div>
+          </li>   
+          <li class="healthformslist w3-border-0">
+          <div class="listitemcontainer">
+            <b>6.4 Workplace Type</b>
+          </div>
+              <div class="listitemcontainer">
+               <input type="checkbox" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="workplacetype" id="workplacetype" value="farm">
+               <label for="workplacetype">Farm</label><br>
+
+              <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="workabledistribution" id="workabledistribution" value="no">
+               <label for="workabledistribution">No</label><br>
               </div>
           </li> 
    	</ul>
