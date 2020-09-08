@@ -1,4 +1,4 @@
-<div class="w3-card w3-white  w3-padding-large healthforms" style="width:90%;height:90%;overflow: auto;">
+<div class="w3-card w3-white  w3-padding-large w3-hide healthforms" style="width:90%;height:90%;overflow: auto;">
    		<h3 class="w3-center w3-bold">2.Personal Details</h3>
    	<ul class="w3-ul">
 
