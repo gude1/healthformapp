@@ -1,4 +1,4 @@
-<div class="w3-card w3-white  w3-padding-large  healthforms w3-hide" style="width:90%;height:90%;overflow: auto;">
+<div class="w3-card w3-white  w3-padding-large w3-animate-left healthforms w3-hide" style="width:90%;height:90%;overflow: auto;">
    		<h3 class="w3-center w3-bold">5.Hiv Testing Services</h3>
    	<ul class="w3-ul">
          <li class="healthformslist w3-border-0">

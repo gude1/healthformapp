@@ -1,4 +1,4 @@
-<div class="w3-card w3-white w3-hide w3-padding-large healthforms" style="width:90%;height:90%;overflow: auto;">
+<div class="w3-card w3-white w3-animate-left w3-padding-large healthforms" style="width:90%;height:90%;overflow: auto;">
    		<h3 class="w3-center w3-bold">MSP HTS DATA Collection Tool</h3>
    		<ul class="w3-ul">
 

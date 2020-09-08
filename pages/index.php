@@ -34,11 +34,12 @@
 		input,Button{
          outline: none;
 		}
+		.hide{
+          display: none;
+		}
 	</style>
 </head>
 <body class="w3-animate-left w3-light-grey w3-display-container">
-	<Button class="w3-display-left w3-small w3-btn w3-round w3-center w3-blue">Left</Button>
-	<Button class="w3-display-right w3-small w3-round w3-btn w3-blue w3-center">Right</Button>
    <div id="formcontainer" class="w3-border">
    	<!-- first form -->
    	<?php  include_once "includes/firstform.php"?>
@@ -61,7 +62,35 @@
    	<!--hivselftest form-->
    	<?php  include_once "includes/hivselftestingform.php"?>
    	<!--hivselftest form-->
-
    </div>
+   <button onclick="substractSlides()" class="w3-display-left w3-small w3-btn w3-round w3-center w3-blue">Left</button>
+	<button onclick="addSlides()" class="w3-display-right w3-small w3-round w3-btn w3-blue w3-center">Right</button>
+   <!--script-->
+   <script type="text/javascript">
+   	var positon = 0;
+   	var i = 0;
+   	var classelements = document.querySelectorAll('.healthforms');
+    function hideElements(){
+   	 for (var i = 0; i < classelements.length; i++) {
+         classelements[i].className += ' w3-hide';
+     }
+    }
+  function addSlides(){
+  	positon +=1;
+  	positon = positon < 0 || positon >=classelements.length ? 0 : positon;
+  	console.warn(positon);
+  	hideElements();
+  	classelements[positon].className = classelements[positon].className.replace(/w3-hide/g,'');
+  }
+
+  function substractSlides(){
+  	positon -=1;
+  	positon = positon < 0 || positon >= classelements.length ? classelements.length -1 : positon;
+  	hideElements();
+  	classelements[positon].className = classelements[positon].className.replace(/w3-hide/g,'');
+  }
+
+   
+   </script>
 </body>
 </html>
