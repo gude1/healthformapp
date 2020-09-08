@@ -51,7 +51,7 @@
             <b>2.5 Physical Address</b>
           </div>
               <div class="listitemcontainer">
-               <input type="text" class="w3-input w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green"name="physicaladdress" id="cellphone" placeholder="physical address">
+               <input type="text" class="w3-input w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green"name="physicaladdress" id="physicaladdress" placeholder="physical address">
               </div>
          </li>
 
@@ -60,9 +60,44 @@
             <b>2.6 What is the name of the town or village where you were born?</b>
           </div>
               <div class="listitemcontainer">
-               <input type="text" class="w3-input w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green"name="town" id="cellphone" placeholder="Town/Village">
+               <input type="text" class="w3-input w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green"name="town" id="town" placeholder="Town/Village">
               </div>
          </li>
+
+         <li class="healthformslist w3-border-0">
+          <div class="listitemcontainer">
+            <b>2.7 Known as</b>
+          </div>
+              <div class="listitemcontainer">
+               <input type="text" class="w3-input w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green"name="knownas" id="knownas" placeholder="...">
+              </div>
+         </li>
+
+         <li class="healthformslist w3-border-0">
+          <div class="listitemcontainer">
+            <b>2.8 Gender</b> <i class="w3-text-grey">Tick 1</i>
+          </div>
+              <div class="listitemcontainer">
+               <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="gender" id="gender" value="male">
+               <label for="gender">Male</label><br>
+
+               <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="gender" id="gender" value="female">
+               <label for="gender">Female</label><br>
+
+                <input type="radio" class="ww3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="gender" id="gender" value="transgenderfemale">
+               <label for="gender">Transgender(Female)</label><br>
+
+                <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="gender" id="gender" value="transgendermale">
+               <label for="gender">Transgender(Male)</label><br>
+
+                <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="gender" id="gender" value="noidentity">
+               <label for="gender">Do not identify as Male,Female or TG</label><br>
+
+                <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="gender" id="gender" value="prefernoanswer">
+               <label for="gender">Prefer not to answer</label><br>
+
+              </div>
+          </li>
 
    	</ul>
 </div>
