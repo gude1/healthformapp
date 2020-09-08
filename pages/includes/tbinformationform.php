@@ -38,6 +38,52 @@
                 <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="tbfever" id="tbfever" value="no">
                 <label for="tbfever">No</label><br>
 
+                <label>Drenching Night Sweats</label><br>
+                 <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="" id="" value="yes">
+               <label for="">Yes</label><br>
+
+                 <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="" id="" value="no">
+               <label for="">No</label><br>
+
+                <label>Is there anyone in your family that has TB</label><br>
+                 <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="" id="" value="yes">
+               <label for="">Yes</label><br>
+
+                 <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="" id="" value="no">
+               <label for="">No</label><br>
+
+               <label>Mucous Which is ocassionally stained with blood</label><br>
+                 <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="" id="" value="yes">
+               <label for="">Yes</label><br>
+
+                 <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="" id="" value="no">
+               <label for="">No</label><br>
+
+               <label>Loss of appetite? ***</label><br>
+                 <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="" id="" value="yes">
+               <label for="">Yes</label><br>
+
+                 <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="" id="" value="no">
+               <label for="">No</label><br>
+
+               <label>Do you smoke?***</label><br>
+                 <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="" id="" value="yes">
+               <label for="">Yes</label><br>
+
+                 <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="" id="" value="no">
+               <label for="">No</label><br>
+
+               <label>Chest pain or difficulty in breathing? ***</label><br>
+                 <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="" id="" value="yes">
+               <label for="">Yes</label><br>
+
+                 <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="" id="" value="no">
+               <label for="">No</label><br>
+
+               <label>If “yes” to one/more of these questions (excl ***), refer to TB investigations. Referred for TB investigation</label><br>
+                 <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="" id="" value="yes">
+               <label for="">Yes</label><br>
+
               </div>
           </li>   
 
