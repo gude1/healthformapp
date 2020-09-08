@@ -34,14 +34,16 @@
           <div class="listitemcontainer">
             <b>5.2.1 if HIV+ confirmatory test completed</b>
           </div>
-              <div class="listitemcontainer">
+            <div class="listitemcontainer">
                <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="confirmatorytestcomplete" id="hivtestresult" value="yes">
                <label for="confirmatorytestcomplete">yes</label><br>
                <div class="w3-margin-left">
-                 <label for="confirmatorytestresult"><b>Confirmatory test result<b></label><br>
+                 <label for="confirmatorytestresult"><b>Confirmatory test result</b></label><br>
+
                   <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="confirmatorytestresult" id="confirmatorytestresult" value="reactive"><label for="confirmatorytestresult">Reactive</label><br>
+                  <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="confirmatorytestresult" id="confirmatorytestresult" value="nonreactive"><label for="confirmatorytestresult">Non-reactive</label>
               </div>
-              </div>
+            </div>
       
               <div class="listitemcontainer">
              <input type="radio" class="w3-border-0 w3-border-bottom w3-border-blue w3-hover-border-green" name="confirmatorytestcomplete" id="confirmatorytestcomplete" value="no">
