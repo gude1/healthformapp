@@ -46,6 +46,9 @@
    	<!--project details form-->
    	<?php  include_once "includes/projectdetailsform.php"?>
    	<!--project details form-->
+   	<!--personal details form-->
+   	<?php  include_once "includes/personaldetailsform.php"?>
+   	<!--personal details form-->
    </div>
 </body>
 </html>
