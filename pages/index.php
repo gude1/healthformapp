@@ -73,10 +73,21 @@
    	<?php  include_once "includes/wellness-screeningform.php"?>
    	<!--wellness-screeningform-->
 
-   		<!--wellness-screeningform-->
+   	<!--wellness-screeningform-->
    	<?php  include_once "includes/tbinformationform.php"?>
    	<!--wellness-screeningform-->
 
+   	<!--rateyourrelationshipform-->
+   	<?php  include_once "includes/rateyourrelationshipform.php"?>
+   	<!--rateyourrelationshipform-->
+
+   	<!--covid19screeningform-->
+   	<?php  include_once "includes/covid19screeningform.php"?>
+   	<!--covid19screeningform-->
+
+   	<!--counsellingform-->
+   	<?php  include_once "includes/counsellingform.php"?>
+   	<!--counsellingform-->
 
    </div>
    <button onclick="substractSlides()" class="w3-display-left w3-small w3-btn w3-round w3-center w3-blue">Left</button>
